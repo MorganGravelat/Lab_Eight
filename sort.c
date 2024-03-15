@@ -92,7 +92,7 @@ void mergeSort(int pData[], int l, int r)
         mergeSort(pData, l, m);
         mergeSort(pData, m + 1, r);
 
-        // Merge the two halves sorted in step 2 and 3
+        //Merge the two halves sorted in the two recursive calls
         merge(pData, l, m, r);
     }
 }
